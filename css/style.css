@@ -162,6 +162,7 @@ header nav a {
   transform: scale(1.07);
   cursor: pointer;
 }
+/* featured product start  */
 .featured-product {
   background-color: rgb(245, 245, 245);
   padding: 80px 40px;
