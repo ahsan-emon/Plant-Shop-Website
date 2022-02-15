@@ -12,13 +12,20 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- fontawesome link  -->
     <link rel="stylesheet" href="css/all.min.css">
+    <!-- owl carousel  -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- animate css  -->
+    <link rel="stylesheet" href="css/animate.css">
     <!-- main css link  -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- responsive css  -->
+    <link rel="stylesheet" href="css/responsive.css">
 
   </head>
   <body>
     <!-- header start  -->
-    <header>
+    <header class="demo">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light">
           <a class="navbar-brand" href="#">GROW</a>
@@ -42,25 +49,25 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#about">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Testimonials</a>
+                <a class="nav-link" href="#testimonial">Testimonials</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="#contact">Contact Us</a>
               </li>
               <li class="nav-item m-0">
-                <a class="nav-link" href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                <a class="nav-link border-0" href="#"><i class="fa-solid fa-cart-plus"></i></a>
               </li>
             </ul>
           </div>
         </nav>
-        <section class="header-slider">
+        <section class="header-slider wow fadeInUp">
           <div class="row header-slider-height text-center align-items-center justify-content-center">
-            <div class="col-md-6">
+            <div class="col-md-12">
               <h5>The Boutique Store For Plants!</h5>
-              <h1>Everything Is Better With Plants</h1>
+              <h1>Everything Is Better <br>With Plants</h1>
               <button class="shop-btn btn">Shop Now</button>
             </div>
           </div>
@@ -73,8 +80,8 @@
       <!-- item info start  -->
       <section class="item-info">
         <div class="container-fluid">
-          <div class="row gy-4">
-            <div class="col-md-3">
+          <div class="row gy-4  wow fadeInUp">
+            <div class="col-md-6 col-xl-3">
               <div class="item-details">
                 <div class="">
                   <i class="item-logo fa-solid fa-seedling"></i>
@@ -85,7 +92,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6 col-xl-3">
               <div class="item-details">
                 <div class="">
                   <i class="item-logo fa-solid fa-spa"></i>
@@ -96,7 +103,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6 col-xl-3">
               <div class="item-details">
                 <div class="">
                   <i class="item-logo fa-solid fa-trophy"></i>
@@ -107,7 +114,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6 col-xl-3">
               <div class="item-details">
                 <div class="">
                   <i class="item-logo fa-solid fa-truck"></i>
@@ -125,26 +132,26 @@
       <!-- items start  -->
       <section class="items">
         <div class="container-fluid">
-          <div class="row gy-4 text-center">
-            <div class="col-md-3">
+          <div class="row gy-4 text-center  wow fadeInUp">
+            <div class="col-md-6 col-lg-3">
               <div class="item">
                 <img class="img-fluid" src="images/item-1.jpg" alt="">
                 <a>Cactus <i class="fa-solid fa-arrow-right-long"></i></a>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6 col-lg-3">
               <div class="item">
                 <img class="img-fluid" src="images/item-2.jpg" alt="">
                 <a>Bonsai <i class="fa-solid fa-arrow-right-long"></i></a>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6 col-lg-3">
               <div class="item">
                 <img class="img-fluid" src="images/item-3.jpg" alt="">
                 <a>Succulent <i class="fa-solid fa-arrow-right-long"></i></a>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6 col-lg-3">
               <div class="item">
                 <img class="img-fluid" src="images/item-4.jpg" alt="">
                 <a>Indoor Plants <i class="fa-solid fa-arrow-right-long"></i></a>
@@ -157,17 +164,17 @@
       <!-- featured product start  -->
       <section class="featured-product">
         <div class="container-fluid">
-          <div class="row pb-5">
-            <div class="col-md-6">
+          <div class="row gy-4 pb-5  wow fadeInUp">
+            <div class="col-md-8 col-lg-6">
               <h1>Featured Products</h1>
               <p>Use these paragraphs to focus on the topic in the headline. Make sure you keep it short and attractive.</p>
             </div>
-            <div class="col-md-6 d-flex justify-content-end align-items-end">
+            <div class="col-md-4 col-lg-6 d-flex justify-content-md-end align-items-md-end">
               <a href="#" class="view-plants-btn btn">View All Plants</a>
             </div>
           </div>
-          <div class="row gy-4">
-            <div class="col-md-3">
+          <div class="owl-carousel owl-carousel1 gy-4  wow fadeInUp">
+            <div class="">
               <div class="product">
                 <div class="sale">
                   <span>Sale!</span>
@@ -184,7 +191,7 @@
                 <p class="sale-price"><del>$120.00</del> $99.00</p>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="">
               <div class="product">
                 <img class="img-fluid" src="images/product-2.jpg" alt="">
                 <h6>Rubber Indoor Plant</h6>
@@ -198,7 +205,7 @@
                 <p>$45.00</p>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="">
               <div class="product">
                 <img class="img-fluid" src="images/product-3.jpg" alt="">
                 <h6>Boncellensis Secullant</h6>
@@ -212,7 +219,7 @@
                 <p>$20.00</p>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="">
               <div class="product">
                 <img class="img-fluid" src="images/product-4.jpg" alt="">
                 <h6>Old Lady Cactus</h6>
@@ -226,21 +233,83 @@
                 <p>$25.00</p>
               </div>
             </div>
+            <div class="">
+              <div class="product">
+                <div class="sale">
+                  <span>Sale!</span>
+                </div>
+                <img class="img-fluid" src="images/product-5.jpg" alt="">
+                <h6>Lady Cactus</h6>
+                <ul>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                </ul>
+                <p class="sale-price"><del>$250.00</del> $199.00</p>
+              </div>
+            </div>
+            <div class="">
+              <div class="product">
+                <img class="img-fluid" src="images/product-6.jpg" alt="">
+                <h6>Old Plant</h6>
+                <ul>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                </ul>
+                <p>$22.00</p>
+              </div>
+            </div>
+            <div class="">
+              <div class="product">
+                <div class="sale">
+                  <span>Sale!</span>
+                </div>
+                <img class="img-fluid" src="images/product-7.jpg" alt="">
+                <h6>Bonsai</h6>
+                <ul>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                </ul>
+                <p class="sale-price"><del>$30.00</del> $20.00</p>
+              </div>
+            </div>
+            <div class="">
+              <div class="product">
+                <img class="img-fluid" src="images/product-8.jpg" alt="">
+                <h6>Indoor Plant</h6>
+                <ul>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                </ul>
+                <p>$35.00</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
       <!-- featured product end  -->
       <!-- gardening section start  -->
-      <section class="gardening">
+      <section id="about" class="gardening">
         <div class="container-fluid">
-          <div class="row gy-4 align-items-start align-items-xl-center">
-            <div class="col-md-3 pe-0">
+          <div class="row gy-4 align-items-start align-items-xl-center  wow fadeInUp">
+            <div class="col-md-6 col-lg-3 pe-md-0">
               <img class="img-fluid" src="images/garden-1.jpg" alt="">
             </div>
-            <div class="col-md-3 ps-0">
+            <div class="col-md-6 col-lg-3 ps-md-0">
               <img class="img-fluid" src="images/garden-2.jpg" alt="">
             </div>
-            <div class="col-md-5 ms-auto">
+            <div class="col-md-12 col-lg-5 ms-auto">
               <div class="gardening-info">
                 <h6>We Help Gardens Thrive!</h6>
                 <h1>Nonummy Cum Convallis</h1>
@@ -264,8 +333,8 @@
       <!-- instructor and editor section start  -->
       <section class="instruct-editor">
         <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-6 pe-0">
+          <div class="row gy-4  wow fadeInUp">
+            <div class="col-md-12 col-lg-6 pe-lg-0">
               <div class="inst-edit-img">
                 <img class="img-fluid" src="images/instruct-2.jpg" alt="">
                 <div class="inst-edit-text">
@@ -275,7 +344,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6 ps-0">
+            <div class="col-md-12 col-lg-6 ps-lg-0">
               <div class="inst-edit-img">
                 <img class="img-fluid" src="images/instruction-1.jpg" alt="">
                 <div class="inst-edit-text">
@@ -292,7 +361,7 @@
       <!-- buy online section start -->
       <section class="buy-online">
         <div class="container-fluid">
-          <div class="row text-center">
+          <div class="row text-center  wow fadeInUp">
             <div class="col">
               <h1>Buy Online Now & Get 10% Off !</h1>
               <p>Curae quia enim aute, consequatur, eius quaerat excepteur fames pharetra.</p>
@@ -303,15 +372,15 @@
       </section>
       <!-- buy online section end -->
       <!-- testimonial section start  -->
-      <section class="testimonial">
+      <section id="testimonial" class="testimonial">
         <div class="container">
-          <div class="row text-center pb-5">
+          <div class="row text-center pb-5  wow fadeInUp">
             <div class="col">
               <h5>Testimonial</h5>
               <h1>What Our Client Say</h1>
             </div>
           </div>
-          <div class="row gy-5 justify-content-evenly">
+          <div class="row gy-4 gy-md-5 justify-content-evenly  wow fadeInUp">
             <div class="col-md-5">
               <div class="client">
                 <p>Suspendisse, occaecat exercitation est occaecati natoque sociis atque omnis! Habitant hendrerit eros, eum commodo quasi nihil nesciunt nonu aecenas aspernatur rattavc kaj.</p>
@@ -344,7 +413,7 @@
                 <p>Suspendisse, occaecat exercitation est occaecati natoque sociis atque omnis! Habitant hendrerit eros, eum commodo quasi nihil nesciunt nonu aecenas aspernatur rattavc kaj.</p>
                 <div class="client-info">
                   <img class="img-fluid" src="images/img.jpg" alt="">
-                  <h6>Md. Ahsan Ullah Emon</h6>
+                  <h6>Md. Ahsan Ullah</h6>
                 </div>
               </div>
             </div>
@@ -353,9 +422,9 @@
       </section>
       <!-- testimonial section end  -->
       <!-- get in touch section start  -->
-      <section class="get-in-touch">
+      <section id="contact" class="get-in-touch">
         <div class="container">
-          <div class="row gy-4 pb-5">
+          <div class="row gy-4 pb-5  wow fadeInUp">
             <div class="col-md-3 text-center">
               <h5>Address</h5>
               <p>123 Fifth Avenue, USA</p>
@@ -368,8 +437,8 @@
               <p>ahsan.emon23@gmail.com</p>
             </div>
           </div>
-          <div class="row text-center justify-content-center">
-            <div class="col-md-6">
+          <div class="row text-center justify-content-center  wow fadeInUp">
+            <div class="col-md-10 col-lg-6">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
               <ul>
                 <li><a href="https://www.facebook.com/ahsanullah.emon/"><i class="fab fa-facebook-f"></i></a></li>
@@ -390,15 +459,17 @@
     <!-- footer start  -->
     <footer>
       <div class="container-fluid">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116834.0097778199!2d90.34928576871451!3d23.780777744581084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1644922896415!5m2!1sen!2sbd" width="100%" height="380" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe class="wow fadeInUp" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116834.0097778199!2d90.34928576871451!3d23.780777744581084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1644922896415!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <p>Copyright &copy; 2022 Plant Shop</p>
-          </div>
-          <div class="col-md-6 text-end">
-            <p>Powered by Plant Shop</p>
+      <div class="footer-overlay">
+        <div class="container">
+          <div class="row  wow fadeInUp">
+            <div class="col-6 pe-0">
+              <p>Copyright &copy; 2022 Plant Shop</p>
+            </div>
+            <div class="col-6 text-end ps-0">
+              <p>Powered by Plant Shop</p>
+            </div>
           </div>
         </div>
       </div>
@@ -409,5 +480,64 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- water effect  -->
+    <script src="js/jquery.ripples-min.js"></script>
+    <!-- wow js  -->
+    <script src="js/wow.min.js"></script>
+    <!-- owl carousel  -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+      // owl carousell 
+      $(document).ready(function(){
+        $(".owl-carousel1").owlCarousel({
+            items: 4,
+            margin: 40, 
+            loop : true, 
+            autoplay: true,
+            dots: true,
+            dotsEach: true,
+            responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+        },
+        426:{
+          items: 3,
+        },
+        769:{
+            items:4,
+        }
+    }
+    });
+    });
+
+    // wow plugin 
+    new WOW().init(); 
+
+    // water effect 
+    $('.demo').ripples({
+
+    // Image Url
+    imageUrl: null,
+
+    // The width and height of the WebGL texture to render to. 
+    // The larger this value, the smoother the rendering and the slower the ripples will propagate.
+    resolution: 256,
+
+    // The size (in pixels) of the drop that results by clicking or moving the mouse over the canvas.
+    dropRadius: 15,
+
+    // Basically the amount of refraction caused by a ripple. 
+    // 0 means there is no refraction.
+    perturbance: 0.005,
+
+    // Whether mouse clicks and mouse movement triggers the effect.
+    interactive: true,
+
+    // The crossOrigin attribute to use for the affected image. 
+    crossOrigin: ''
+
+    });
+    </script>
   </body>
 </html>

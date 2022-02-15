@@ -1,0 +1,158 @@
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* header start  */
+  .header-slider h5 {
+    margin-bottom: 28px;
+    font-size: 21px;
+  }
+  .header-slider h1 {
+    margin-bottom: 25px;
+    font-size: 80px;
+  }
+  /* buy online  start*/
+  .buy-online {
+    padding: 80px 0;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  /* header start  */
+  .header-slider h5 {
+    margin-bottom: 22px;
+    font-size: 20px;
+  }
+  .header-slider h1 {
+    margin-bottom: 18px;
+    font-size: 70px;
+  }
+  /* featured start  */
+  .featured-product h1 {
+    font-size: 42px;
+  }
+  .featured-product .view-plants-btn {
+    padding: 10px 22px;
+    font-size: 17px;
+  }
+  /* buy online  start*/
+  .buy-online {
+    padding: 60px 0;
+  }
+  .buy-online h1 {
+    font-size: 40px;
+  }
+  .buy-online p {
+    font-size: 14px;
+  }
+  /* testimonial  */
+  .testimonial {
+    padding: 60px 0;
+  }
+  /* get in touch  */
+  .get-in-touch h1 {
+    font-size: 40px;
+  }
+  .get-in-touch p {
+    font-size: 15px;
+  }
+  /* footer start  */
+  footer iframe {
+    height: 280px;
+  }
+  footer .row {
+    padding: 35px 0;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 425px) {
+  /* header start  */
+  .header-slider h5 {
+    margin-bottom: 18px;
+    font-size: 18px;
+  }
+  .header-slider h1 {
+    margin-bottom: 15px;
+    font-size: 40px;
+  }
+  .header-slider .shop-btn {
+    padding: 8px 20px;
+    font-size: 15px;
+  }
+  /* featured start  */
+  .featured-product h1 {
+    font-size: 35px;
+  }
+  .featured-product .view-plants-btn {
+    padding: 9px 20px;
+    font-size: 16px;
+  }
+  /* gardening start  */
+  .gardening h6 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .gardening h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+  .gardening h5 {
+    font-size: 20px;
+  }
+  /* instruct-editor start  */
+  .inst-edit-text {
+    position: absolute;
+    left: 0px;
+    bottom: 20px;
+  }
+  .inst-edit-img:hover .inst-edit-text {
+    left: 20px;
+  }
+  .inst-edit-text h2 {
+    font-size: 24px;
+    margin-bottom: 6px;
+  }
+  .inst-edit-text p {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  .inst-edit-text a {
+    font-size: 14px;
+  }
+  /* buy online  start*/
+  .buy-online {
+    padding: 50px 0;
+  }
+  .buy-online h1 {
+    font-size: 35px;
+  }
+  .buy-online .shop-btn {
+    padding: 8px 20px;
+    font-size: 15px;
+  }
+  /* testimonial  */
+  .testimonial {
+    padding: 50px 0;
+  }
+  .testimonial h1 {
+    font-size: 35px;
+  }
+  /* get in touch  */
+  .get-in-touch h1 {
+    font-size: 38px;
+  }
+  .get-in-touch p {
+    font-size: 14px;
+  }
+  .get-in-touch ul li a i {
+    font-size: 15px;
+    height: 40px;
+    width: 40px;
+  }
+  /* footer start  */
+  footer iframe {
+    height: 150px;
+    padding: 0 20px;
+  }
+  footer .row {
+    padding: 30px 0;
+  }
+  footer p {
+    font-size: 13px;
+  }
+}

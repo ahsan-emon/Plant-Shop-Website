@@ -33,7 +33,7 @@ header::after {
   left: 0px;
   width: 100%;
   height: 100%;
-  background-color: rgba(1, 27, 21, 0.781);
+  background-color: rgba(1, 27, 21, 0.78);
   z-index: -1;
 }
 header .navbar {
@@ -55,7 +55,10 @@ header nav a {
 .navbar-light .navbar-nav .nav-link {
   color: rgb(194, 194, 194);
   font-size: 20px;
-  margin-right: 20px;
+  border-bottom: 1px solid rgba(194, 194, 194, 0.616);
+  padding: 0px;
+  margin: 8px 28px 8px 8px;
+  transition: all 0.3s ease-in-out 0s;
 }
 .navbar-light .navbar-nav .nav-link i {
   color: rgb(0, 171, 132);
@@ -68,6 +71,8 @@ header nav a {
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus {
   color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
+  text-shadow: rgb(255 255 255) 0px 0px 2px;
 }
 .header-slider-height {
   min-height: 60vh;
@@ -86,13 +91,14 @@ header nav a {
 .header-slider .shop-btn,
 .buy-online .shop-btn {
   color: rgb(255, 255, 255);
-  background-color: #00ab84;
+  background-color: rgb(0, 171, 132);
   text-transform: uppercase;
   border-radius: 2px;
   padding: 12px 30px;
   font-size: 16px;
   transition: all 0.3s ease-in-out 0s;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 50px;
 }
 .header-slider .shop-btn:hover,
 .buy-online .shop-btn:hover {
@@ -102,7 +108,6 @@ header nav a {
 .buy-online .shop-btn:focus {
   box-shadow: none;
 }
-/* item info start  */
 .item-info {
   padding: 50px 40px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 80px -40px;
@@ -123,7 +128,7 @@ header nav a {
   font-size: 20px;
 }
 .item-text h4 {
-  color: #2a2a2a;
+  color: rgb(42, 42, 42);
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 24px;
@@ -133,9 +138,8 @@ header nav a {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-/* items section start  */
 .items {
-  padding: 40px 0px 90px 0px;
+  padding: 40px 0px 90px;
 }
 .item a {
   transition: all 0.3s ease-in-out 0s;
@@ -158,13 +162,30 @@ header nav a {
   transform: scale(1.07);
   cursor: pointer;
 }
-/* featured product start  */
 .featured-product {
   background-color: rgb(245, 245, 245);
   padding: 80px 40px;
 }
+.featured-product .owl-dots {
+  text-align: center;
+}
+.featured-product .owl-dots .owl-dot span {
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: rgb(204, 203, 203);
+  margin-top: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: all 0.4s ease-in-out 0s;
+}
+.featured-product .owl-dots .active span {
+  background-color: rgb(0, 171, 132);
+  transform: scale(1.3);
+}
 .featured-product h1 {
-  color: #2a2a2a;
+  color: rgb(42, 42, 42);
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -194,27 +215,26 @@ header nav a {
   width: 100%;
 }
 .product h6 {
-  color: #2a2a2a;
+  color: rgb(42, 42, 42);
   font-weight: 500;
   font-size: 18px;
 }
 .product ul {
   list-style: none;
   display: flex;
-  margin: 2px 0;
+  margin: 2px 0px;
 }
 .product ul li i {
   font-size: 14px;
-
-  color: #009170;
+  color: rgb(0, 145, 112);
 }
 .product p {
-  color: #5a5a5a;
+  color: rgb(90, 90, 90);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 700;
 }
 .sale-price del {
-  color: #a8a8a8;
+  color: rgb(168, 168, 168);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 700;
 }
@@ -222,44 +242,43 @@ header nav a {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #009170;
+  background-color: rgb(0, 145, 112);
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  right: -10px;
-  top: -10px;
+  right: -5px;
+  top: -5px;
 }
 .sale span {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 500;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 17px;
 }
-/* gardening section start  */
 .gardening {
   padding: 80px 40px;
 }
 .gardening-info h6 {
-  color: #00ab84;
+  color: rgb(0, 171, 132);
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 25px;
 }
 .gardening-info h1 {
-  color: #2a2a2a;
+  color: rgb(42, 42, 42);
   font-size: 50px;
   font-weight: 600;
   margin-bottom: 20px;
 }
 .gardening-info p {
-  color: #555555;
+  color: rgb(85, 85, 85);
   margin-bottom: 25px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .gardening-info i {
-  color: #00ab84;
+  color: rgb(0, 171, 132);
   font-size: 25px;
   margin-bottom: 7px;
 }
@@ -282,7 +301,7 @@ header nav a {
   text-decoration: none;
 }
 .gardening-info ul li a i {
-  color: #00ab84;
+  color: rgb(0, 171, 132);
   font-size: 14px;
   height: 38px;
   width: 38px;
@@ -290,18 +309,17 @@ header nav a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f0f0f0;
-  margin-bottom: 0;
+  background-color: rgb(240, 240, 240);
+  margin-bottom: 0px;
   cursor: pointer;
-  transition: 0.3s all ease-in-out;
+  transition: all 0.3s ease-in-out 0s;
 }
 .gardening-info ul li a i:hover {
-  background-color: #00ab84;
-  color: #fff;
+  background-color: rgb(0, 171, 132);
+  color: rgb(255, 255, 255);
 }
-/* instruct-editor section start  */
 .instruct-editor {
-  padding: 0 40px;
+  padding: 0px 40px;
 }
 .inst-edit-img {
   position: relative;
@@ -309,12 +327,12 @@ header nav a {
 .inst-edit-img::after {
   content: "";
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 0px;
+  left: 0px;
   width: 100%;
   height: 0%;
   background-color: rgba(0, 0, 0, 0.7);
-  transition: 0.4s all ease-in-out;
+  transition: all 0.4s ease-in-out 0s;
 }
 .inst-edit-img:hover::after {
   height: 100%;
@@ -324,7 +342,7 @@ header nav a {
   left: 0px;
   bottom: 50px;
   opacity: 0;
-  transition: 0.4s all ease-in-out;
+  transition: all 0.4s ease-in-out 0s;
   z-index: 99;
 }
 .inst-edit-img:hover .inst-edit-text {
@@ -332,35 +350,34 @@ header nav a {
   opacity: 1;
 }
 .inst-edit-text h2 {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 36px;
   font-weight: 600;
   margin-bottom: 8px;
 }
 .inst-edit-text p {
-  color: #f0f0f0;
+  color: rgb(240, 240, 240);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin-bottom: 25px;
 }
 .inst-edit-text a {
-  color: #fff;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  transition: 0.3s all ease-in-out;
+  transition: all 0.3s ease-in-out 0s;
 }
 .inst-edit-text a:hover {
   color: rgb(0, 171, 132);
 }
-/* buy online section start  */
 .buy-online {
   background-image: url("../images/buy-online.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
-  padding: 120px 0;
+  padding: 120px 0px;
   margin-top: 50px;
   position: relative;
   z-index: 0;
@@ -368,76 +385,77 @@ header nav a {
 .buy-online::after {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.1);
   z-index: -1;
 }
+.buy-online .shop-btn {
+  margin-bottom: 0px;
+}
 .buy-online h1 {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 50px;
   margin-bottom: 15px;
   font-weight: 600;
 }
 .buy-online p {
-  color: #f0f0f0;
+  color: rgb(240, 240, 240);
   margin-bottom: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-/* testimonial start  */
 .testimonial {
   background-image: url("../images/bg-3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-attachment: fixed;
-  padding: 80px 0;
+  padding: 80px 0px;
   position: relative;
   z-index: 0;
 }
 .testimonial::after {
   content: "";
   position: absolute;
-  left: 0;
-  top: 0;
+  left: 0px;
+  top: 0px;
   width: 100%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.85);
   z-index: -1;
 }
 .testimonial h5 {
-  color: #00ab84;
+  color: rgb(0, 171, 132);
   font-size: 22px;
   margin-bottom: 15px;
 }
 .testimonial h1 {
-  color: #2a2a2a;
+  color: rgb(42, 42, 42);
   font-size: 50px;
   font-weight: 600;
 }
 .client {
   padding: 40px;
-  background-color: #fff;
-  box-shadow: 0px 0px 2px 1px #fff;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(255, 255, 255) 0px 0px 2px 1px;
   border: 1px solid transparent;
-  transition: 0.4s all ease-in-out;
+  transition: all 0.4s ease-in-out 0s;
 }
 .client:hover {
-  border: 1px solid #00ab84;
+  border: 1px solid rgb(0, 171, 132);
   box-shadow: none;
 }
 .client p {
-  color: #5a5a5a;
+  color: rgb(90, 90, 90);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 4;
-  line-clamp: 2;
   -webkit-box-orient: vertical;
 }
 .client-info {
@@ -450,21 +468,20 @@ header nav a {
   height: 42px;
   border-radius: 50%;
   margin-right: 10px;
-  background-color: #055e43c5;
+  background-color: rgba(5, 94, 67, 0.773);
 }
 .client-info h6 {
-  color: #5a5a5a;
+  color: rgb(90, 90, 90);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 19px;
   font-weight: 600;
 }
-/* get in touch start  */
 .get-in-touch {
-  padding: 80px 0;
+  padding: 80px 0px;
 }
 .get-in-touch h5 {
   margin-bottom: 20px;
-  color: #2a2a2a;
+  color: rgb(42, 42, 42);
   font-size: 20px;
   font-weight: 400;
 }
@@ -475,7 +492,7 @@ header nav a {
 .get-in-touch p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: #5a5a5a;
+  color: rgb(90, 90, 90);
 }
 .get-in-touch ul {
   list-style: none;
@@ -493,7 +510,7 @@ header nav a {
   text-decoration: none;
 }
 .get-in-touch ul li a i {
-  color: #f0f0f0;
+  color: rgb(240, 240, 240);
   font-size: 16px;
   height: 45px;
   width: 45px;
@@ -501,27 +518,26 @@ header nav a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #00ab84;
-  margin-bottom: 0;
+  background-color: rgb(0, 171, 132);
+  margin-bottom: 0px;
   cursor: pointer;
-  transition: 0.4s all ease-in-out;
+  transition: all 0.4s ease-in-out 0s;
 }
 .get-in-touch ul li a i:hover {
-  background-color: #f0f0f0;
-  color: #00ab84;
-  border: 1px solid #00ab84;
+  background-color: rgb(240, 240, 240);
+  color: rgb(0, 171, 132);
+  border: 1px solid rgb(0, 171, 132);
 }
 .get-in-touch h4 {
-  color: #2a2a2a;
+  color: rgb(42, 42, 42);
   font-size: 22px;
   font-weight: 400;
-  margin: 20px 0;
+  margin: 20px 0px;
 }
 .get-in-touch .phone-no {
   font-size: 18px;
-  color: #a8a8a8;
+  color: rgb(168, 168, 168);
 }
-/* footer start  */
 footer {
   background-image: url("../images/bg-1.jpg");
   background-repeat: no-repeat;
@@ -538,17 +554,33 @@ footer::after {
   left: 0px;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.781);
+  background-color: rgba(0, 0, 0, 0.78);
+  z-index: -1;
+}
+.footer-overlay {
+  position: relative;
+  z-index: 0;
+}
+.footer-overlay::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: -1;
 }
 footer iframe {
-  padding: 0 40px;
+  padding: 0px 40px;
+  height: 380px;
+  width: 100%;
 }
 footer .row {
-  padding: 40px;
+  padding: 40px 0px;
 }
 footer p {
-  color: #a8a8a8;
+  color: rgb(168, 168, 168);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
